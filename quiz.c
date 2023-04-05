@@ -19,8 +19,8 @@ void quiz()
         printf("Wrong!\n");
     }
     
-    printf("Question 2: What is the largest planet in our solar system?\n");
-    printf("A) .hpp\nB) .ch\nC) .h\n");
+    printf("Question 2: If we have a variable called var of type int, how can we get its address in memory\n");
+    printf("A) *var\nB) *(var)\nC) &var\n");
     scanf(" %c", &n);
     if (n == 'C')
     {
@@ -31,7 +31,7 @@ void quiz()
     {
         printf("Wrong!\n");
     }
-    printf("Question 3: We declare the following variable int arr[5];?\n");
+    printf("Question 3: int arr[5] ;What is the equivalent of typing arr[2]?\n");
     printf("A) arr + 2\nB) *arr + 2\nC) *(arr + 2)\n");
     scanf(" %c", &n);
     if (n == 'C')
